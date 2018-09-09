@@ -1,3 +1,5 @@
+# 注：关于本仓库，本人新增内容在最下面（未写）
+## 该仓库为 原作者的内容，本人仅阅读并在代码中加入大量中文注释，以便理解。
 # PyTorch-YOLOv3
 Minimal implementation of YOLOv3 in PyTorch.
 
