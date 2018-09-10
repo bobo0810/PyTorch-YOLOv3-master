@@ -1,5 +1,31 @@
-# 注：关于本仓库，本人新增内容在最下面（未写）
+
 ## 该仓库为 原作者的内容，本人仅阅读并在代码中加入大量中文注释，以便理解。
+
+- ### 第一次更新：新增本仓库，代码未加完注释
+
+- ### 第二次更新： 整个训练过程、损失计算等加完注释，测试和验证代码量少、简单易懂且与训练代码大致相同，暂时不加。
+
+## 接下来工作：
+
+ - ## [重构代码](https://github.com/bobo0810/AnnotatedNetworkModelGit)，并加入visdom可视化等，敬请期待~
+
+## 参考文献：
+
+推荐配合阅读，效果更佳~
+
+- [从0到1实现YOLOv3（part one）](https://blog.csdn.net/qq_25737169/article/details/80530579)
+
+- [从0到1实现YOLO v3（part two）](https://blog.csdn.net/qq_25737169/article/details/80634360)
+
+- [yolo v3 译文](https://zhuanlan.zhihu.com/p/34945787)
+
+ ## 环境：
+
+ | python版本 | pytorch版本 |
+|------------|-------------|
+| 3.5        | 0.4.1       |
+
+
 # PyTorch-YOLOv3
 Minimal implementation of YOLOv3 in PyTorch.
 

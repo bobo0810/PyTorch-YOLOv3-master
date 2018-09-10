@@ -137,7 +137,7 @@ class ListDataset(Dataset):
         if labels is not None:
             filled_labels[range(len(labels))[:self.max_objects]] = labels[:self.max_objects]
         filled_labels = torch.from_numpy(filled_labels)
-        # 返回 图像路径、处理后的图像tensor、真值框filled_labels[50,5]
+        # 返回 图像路径、处理后的图像tensor、坐标被归一化后的真值框filled_labels[50,5] 值在0-1之间
         return img_path, input_img, filled_labels
 
     def __len__(self):

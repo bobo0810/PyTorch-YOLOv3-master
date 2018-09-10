@@ -86,7 +86,7 @@ optimizer = optim.SGD(model.parameters(), lr=learning_rate, momentum=momentum, d
 for epoch in range(opt.epochs):
     # 每轮epoch
     for batch_i, (_, imgs, targets) in enumerate(dataloader):
-        # imgs :处理后的图像tensor[16,3,416,416]        targets:真值框filled_labels[16,50,5]
+        # imgs :处理后的图像tensor[16,3,416,416]        targets:坐标被归一化后的真值框filled_labels[16,50,5] 值在0-1之间
         imgs = Variable(imgs.type(Tensor))
         targets = Variable(targets.type(Tensor), requires_grad=False)
         # 优化器梯度清零
@@ -104,6 +104,7 @@ for epoch in range(opt.epochs):
                                     model.losses['h'], model.losses['conf'], model.losses['cls'],
                                     loss.item(), model.losses['recall']))
 
+        # 统计 训练过程共使用多少张图片，用于 保存权重时写入 头文件中
         model.seen += imgs.size(0)
     # 每隔几个模型保存一次
     if epoch % opt.checkpoint_interval == 0:
