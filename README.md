@@ -19,6 +19,8 @@
 
 - [yolo v3 译文](https://zhuanlan.zhihu.com/p/34945787)
 
+- [YOLO v3网络结构分析](https://blog.csdn.net/qq_37541097/article/details/81214953)
+
  ## 环境：
 
  | python版本 | pytorch版本 |
