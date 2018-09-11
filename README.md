@@ -1,5 +1,6 @@
 
-## 该仓库为 原作者的内容，本人仅阅读并在代码中加入大量中文注释，以便理解。
+## 说明：
+###### 该仓库为 原作者的内容，非常感谢大佬的无私奉献，本人仅阅读并在代码中加入大量中文注释，以便理解。
 
 - ### 第一次更新：新增本仓库，代码未加完注释
 
@@ -7,7 +8,7 @@
 
 ## 接下来工作：
 
- - ## [重构代码](https://github.com/bobo0810/AnnotatedNetworkModelGit)，并加入visdom可视化等，敬请期待~
+ - ## [重构代码](https://github.com/bobo0810/AnnotatedNetworkModelGit/tree/master/YOLOv3_pytorch)，并加入visdom可视化等，敬请期待~
 
 ## 参考文献：
 
@@ -28,6 +29,9 @@
 | 3.5        | 0.4.1       |
 
 
+---
+
+# [原仓库传送门](https://github.com/eriklindernoren/PyTorch-YOLOv3)
 # PyTorch-YOLOv3
 Minimal implementation of YOLOv3 in PyTorch.
 
