@@ -8,7 +8,7 @@
 
 ## 接下来工作：
 
- - ## [重构代码](https://github.com/bobo0810/AnnotatedNetworkModelGit/tree/master/YOLOv3_pytorch)，并加入visdom可视化等，敬请期待~
+ - ## [重构代码](https://github.com/bobo0810/AnnotatedNetworkModelGit/tree/master/Yolov3_pytorch)，并加入visdom可视化等，敬请期待~
 
 ## 参考文献：
 
